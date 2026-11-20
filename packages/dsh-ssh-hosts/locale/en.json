@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "SSH Hosts",
+    "description": "Shows the current execution target above the composer, switches between localhost and hosts from ~/.ssh/config, and lets the Agent run commands there through ssh_exec."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Python / Conda 环境",
+    "description": "输入框上方显示当前执行目标上的 Python/Conda 环境，可切换环境并让 Agent 使用该目标上的指定解释器。环境列表与 SSH 执行目标联动。"
+  }
+}

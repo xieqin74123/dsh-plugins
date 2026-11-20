@@ -1,0 +1,10 @@
+# Insert the SSH host plugin and its settings. A later profile patch can
+# override `config` by matching this row id.
+- insert:
+    - id: ssh-hosts
+      name: '@local/dsh-ssh-hosts'
+      config:
+        configPath: '~/.ssh/config'
+        connectTimeoutSeconds: 10
+        defaultTimeoutMs: 120000
+        maxTimeoutMs: 600000

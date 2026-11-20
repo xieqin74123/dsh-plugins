@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GPU 设备访问",
+    "description": "一个会话级开关，在 bash 沙箱内授予 GPU 设备节点，CUDA 命令无需逐次申请授权。"
+  }
+}

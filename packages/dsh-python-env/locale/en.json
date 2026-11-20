@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Python / Conda environment",
+    "description": "Shows the Python/conda environments on the current execution target above the composer, lets you switch, and makes the Agent use the selected interpreter. The catalog follows the SSH target."
+  }
+}

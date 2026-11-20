@@ -1,0 +1,6 @@
+# Insert the per-session notification switch. The plugin owns no host service;
+# the browser half does all of the work. A later profile patch can still
+# override `config` by matching this row id.
+- insert:
+    - id: session-notify
+      name: '@local/dsh-session-notify'

@@ -1,0 +1,13 @@
+# Insert the Python/conda environment selector and its settings. A later
+# profile patch can override `config` by matching this row id.
+- insert:
+    - id: python-env
+      name: '@local/dsh-python-env'
+      config:
+        discoveryTimeoutMs: 30000
+        defaultTimeoutMs: 120000
+        maxTimeoutMs: 600000
+        cacheTtlMs: 60000
+        maxEnvironments: 200
+        extraCondaRoots: []
+        extraPythonDirs: []

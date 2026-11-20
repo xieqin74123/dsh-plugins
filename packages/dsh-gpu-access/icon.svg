@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="GPU card">
+  <rect x="6" y="18" width="52" height="32" rx="5" fill="#1f6f4a"/>
+  <rect x="10" y="22" width="44" height="24" rx="3" fill="#2ea36b"/>
+  <circle cx="24" cy="34" r="7" fill="#eafff3"/>
+  <circle cx="24" cy="34" r="3" fill="#1f6f4a"/>
+  <rect x="36" y="26" width="12" height="3" rx="1.5" fill="#eafff3"/>
+  <rect x="36" y="32" width="12" height="3" rx="1.5" fill="#eafff3"/>
+  <rect x="36" y="38" width="8" height="3" rx="1.5" fill="#eafff3"/>
+  <rect x="18" y="50" width="6" height="8" rx="2" fill="#124a30"/>
+  <rect x="40" y="50" width="6" height="8" rx="2" fill="#124a30"/>
+</svg>

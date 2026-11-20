@@ -1,0 +1,60 @@
+{
+  "name": "@local/dsh-session-notify",
+  "version": "0.1.0",
+  "description": "Per-session desktop notifications for DeepSeek Harness: alert when a turn finishes or the Agent asks for an answer, with a one-icon on/off switch in the composer.",
+  "author": "Qin Xie",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "dsh": "^0.2.2-rc.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.1.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-session"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "node test/harness.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "notifications",
+    "web"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xieqin74123/dsh-plugins.git",
+    "directory": "packages/dsh-session-notify"
+  },
+  "bugs": {
+    "url": "https://github.com/xieqin74123/dsh-plugins/issues"
+  }
+}

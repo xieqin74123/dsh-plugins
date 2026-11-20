@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "CPU Allocation",
+    "description": "Shows the physical CPU cores available on the current execution target above the composer, lets you allocate cores to the conversation, and makes the Agent respect that budget. Follows the SSH target when the SSH plugin is loaded; otherwise it reads this machine."
+  }
+}

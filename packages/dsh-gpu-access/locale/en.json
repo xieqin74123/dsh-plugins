@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GPU device access",
+    "description": "One session switch that grants GPU device nodes inside the bash sandbox, so CUDA commands run without a per-command approval."
+  }
+}

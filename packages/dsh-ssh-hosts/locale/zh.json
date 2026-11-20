@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "SSH 主机",
+    "description": "对话输入框上方显示当前执行目标，可切换 localhost 或 ~/.ssh/config 中的 SSH 主机，并让 Agent 通过 ssh_exec 在目标主机上执行命令。"
+  }
+}

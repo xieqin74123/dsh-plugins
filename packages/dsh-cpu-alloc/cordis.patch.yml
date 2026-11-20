@@ -1,0 +1,11 @@
+# Insert the CPU allocation selector and its settings. A later profile patch can
+# override `config` by matching this row id.
+- insert:
+    - id: cpu-alloc
+      name: '@local/dsh-cpu-alloc'
+      config:
+        discoveryTimeoutMs: 15000
+        cacheTtlMs: 60000
+        maxOutputBytes: 65536
+        maxCores: 4096
+        enableCommands: true

@@ -1,0 +1,10 @@
+node_modules/
+.pnpm-store/
+*.log
+*.tgz
+.DS_Store
+.idea/
+.vscode/
+# Local DSH profile snapshots and installer state
+dsh-web-profile-*
+.plugin-manager/

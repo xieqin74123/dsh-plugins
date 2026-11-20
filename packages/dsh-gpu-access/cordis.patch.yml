@@ -1,0 +1,16 @@
+# GPU device-access switch.
+#
+# The host row provides the `gpuAccess` service and wraps the live
+# `ctx.sandbox` provider so the configured device roots join the sandbox's
+# writable allow-list for sessions whose switch is on. The client row draws the
+# pill above the composer. A later profile patch can override `config` by
+# matching this row id.
+- insert:
+    - id: gpu-access
+      name: '@local/dsh-gpu-access'
+      config:
+        defaultEnabled: true
+        deviceRoots:
+          - /dev
+          - /dev/shm
+        enableCommands: true
