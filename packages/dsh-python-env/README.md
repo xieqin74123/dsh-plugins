@@ -1,5 +1,7 @@
 # DSH Python / Conda 环境插件
 
+> ⚠️ 代码由 DSH 生成，未经人工审核；使用前请自行审查。见[仓库说明](../../README.md)。
+
 在 DeepSeek Harness Web UI 的对话框上方增加「环境」选择栏。它联动 SSH 插件的**执行目标**：在 `localhost` 或当前 SSH 主机上发现可用的 Python 解释器和 conda 环境，选择后让 Agent 在对应目标上使用指定解释器。
 
 ## 功能

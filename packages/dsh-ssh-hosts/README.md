@@ -1,5 +1,7 @@
 # DSH SSH 主机插件
 
+> ⚠️ 代码由 DSH 生成，未经人工审核；使用前请自行审查。见[仓库说明](../../README.md)。
+
 在 DeepSeek Harness Web UI 中读取 `~/.ssh/config` 保存的 SSH 主机，在输入框上方显示并切换当前执行目标（`localhost` 或某台 SSH 主机），并让 Agent 在目标主机上执行命令。
 
 ## 功能
